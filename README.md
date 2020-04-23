@@ -3,7 +3,7 @@ A novel wireless communications method for autonomous vehicles using basic adapt
 by encoding information in speed and perception with LiDAR. Implemented on [MuSHR software stack](mushr.io) from UW's Personal 
 Robotics Lab.
 
-
+![demo](wireless.png)
 
 ### Basic Idea Outline 
 An adaptive cruise control setup where two cars are able to communicate to each other through slightly altering their speeds(encoding information in velocity). 
