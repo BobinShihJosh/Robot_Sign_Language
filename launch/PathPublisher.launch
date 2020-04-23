@@ -1,0 +1,11 @@
+<launch>
+    <arg name="control_topic" default="/mux/ackermann_cmd_mux/input/navigation" />
+    <arg name="init_pose_topic" default="/initialpose" />
+    <arg name="plan_file" default="$(find mushr_wireless_comm)/plans/figure8.txt" />
+
+    <node pkg="mushr_wireless_comm" type="PathPublisher.py" name="PathPublisher" output="screen">
+        <param name="control_topic" value="$(arg control_topic)" />
+        <param name="init_pose_topic" value="$(arg init_pose_topic)" />
+        <param name="plan_file" value="$(arg plan_file)" />
+    </node>
+</launch>

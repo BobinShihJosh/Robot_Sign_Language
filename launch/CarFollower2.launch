@@ -1,0 +1,5 @@
+<launch>
+  <param name="follow_offset" value="3" />
+  <param name="force_in_bounds" value="True" />
+  <node pkg="mushr_wireless_comm" type="CarFollower2.py" name="mushr_wireless_comm_CarFollower2" required="true" />
+</launch>

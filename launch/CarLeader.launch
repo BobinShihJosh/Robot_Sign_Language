@@ -1,0 +1,8 @@
+<launch>
+    <arg name="message_file" default="$(find mushr_wireless_comm)/messages/Hello_World.txt" />
+
+    <param name="speed" value="2" />
+    <param name="steering" value="0" />
+    <param name="message_file" value="$(arg message_file)" />
+    <node pkg="mushr_wireless_comm" type="CarLeader.py" name="mushr_wireless_comm_CarLeader" required="true" />
+</launch>

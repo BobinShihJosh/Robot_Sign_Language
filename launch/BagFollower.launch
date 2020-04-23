@@ -1,0 +1,5 @@
+<launch>
+  <param name="bag_path" value="/home/joshshih/racecar_ws/src/lab0/bagfiles/oval_path.bag" />
+  <param name="follow_backwards" value="True" />
+  <node pkg="lab0/src/" type="BagFollower.py" name="Lab0_BagFollower" required="true" />
+</launch>

@@ -1,0 +1,5 @@
+<launch>
+  <param name="follow_offset" value="-2.5" />
+  <param name="force_in_bounds" value="True" />
+  <node pkg="mushr_wireless_comm" type="CloneFollower.py" name="mushr_wireless_comm_CloneFollower" required="true" />
+</launch>

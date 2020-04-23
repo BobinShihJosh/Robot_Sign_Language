@@ -1,0 +1,3 @@
+<launch>
+  <node pkg="mushr_wireless_comm" type="DecodeMessage.py" name="mushr_wireless_comm_msg_decode" required="true" />
+</launch>
